@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      7914,        229]
-NotebookOptionsPosition[      7181,        211]
-NotebookOutlinePosition[      7584,        227]
-CellTagsIndexPosition[      7541,        224]
+NotebookDataLength[      8482,        245]
+NotebookOptionsPosition[      7655,        226]
+NotebookOutlinePosition[      8058,        242]
+CellTagsIndexPosition[      8015,        239]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -160,6 +160,22 @@ Cell[BoxData[
 Cell[BoxData[
  RowBox[{"dirfield", "[", 
   RowBox[{
+   RowBox[{
+    RowBox[{"#1", " ", "#2"}], "&"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "2"}], ",", "2"}], "}"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.85518049693701*^9, 3.855180528277608*^9}},
+ CellLabel->"In[59]:=",ExpressionUUID->"a27d63f8-27e3-4e39-b2f3-9883ecf4296c"],
+
+Cell[BoxData[
+ RowBox[{"dirfield", "[", 
+  RowBox[{
    RowBox[{"#2", "&"}], ",", 
    RowBox[{"{", 
     RowBox[{
@@ -170,7 +186,7 @@ Cell[BoxData[
        RowBox[{"-", "2"}], ",", "2"}], "}"}]}], "}"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.855002066595107*^9, 3.8550021120386724`*^9}, {
   3.855002146939149*^9, 3.8550021472853794`*^9}},
- CellLabel->"In[27]:=",ExpressionUUID->"3ab7d275-0413-479b-b0c4-0eded8a6b3ef"],
+ CellLabel->"In[62]:=",ExpressionUUID->"3ab7d275-0413-479b-b0c4-0eded8a6b3ef"],
 
 Cell[BoxData[
  RowBox[{"dirfield", "[", 
@@ -206,11 +222,10 @@ Cell[BoxData[
       RowBox[{
        RowBox[{"-", "2"}], ",", "2"}], "}"}]}], "}"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.855000733494405*^9, 3.8550007636843567`*^9}},
- CellLabel->
-  "In[125]:=",ExpressionUUID->"76ad1e58-44ba-4601-9703-ae3d9078af4a"]
+ CellLabel->"In[53]:=",ExpressionUUID->"76ad1e58-44ba-4601-9703-ae3d9078af4a"]
 },
 WindowSize->{760, 833},
-WindowMargins->{{306, Automatic}, {Automatic, 86}},
+WindowMargins->{{100, Automatic}, {Automatic, 83}},
 FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (December 12, 2020)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"ab2cb134-884e-43e1-b366-c42f0b7e6a28"
@@ -228,9 +243,10 @@ CellTagsIndex->{}
 Notebook[{
 Cell[558, 20, 4594, 121, 219, "Input",ExpressionUUID->"f598290d-ef6c-4c83-b16e-9e2a968be4c8"],
 Cell[5155, 143, 478, 14, 28, "Input",ExpressionUUID->"fa3e10a5-4d0c-4a17-aa29-f4bb6fd2de34"],
-Cell[5636, 159, 480, 13, 28, "Input",ExpressionUUID->"3ab7d275-0413-479b-b0c4-0eded8a6b3ef"],
-Cell[6119, 174, 509, 16, 28, "Input",ExpressionUUID->"e2ca02cd-2ad1-4d36-b233-d864bffcb279"],
-Cell[6631, 192, 546, 17, 32, "Input",ExpressionUUID->"76ad1e58-44ba-4601-9703-ae3d9078af4a"]
+Cell[5636, 159, 475, 14, 28, "Input",ExpressionUUID->"a27d63f8-27e3-4e39-b2f3-9883ecf4296c"],
+Cell[6114, 175, 480, 13, 28, "Input",ExpressionUUID->"3ab7d275-0413-479b-b0c4-0eded8a6b3ef"],
+Cell[6597, 190, 509, 16, 28, "Input",ExpressionUUID->"e2ca02cd-2ad1-4d36-b233-d864bffcb279"],
+Cell[7109, 208, 542, 16, 32, "Input",ExpressionUUID->"76ad1e58-44ba-4601-9703-ae3d9078af4a"]
 }
 ]
 *)
