@@ -1,0 +1,441 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     15285,        433]
+NotebookOptionsPosition[     14451,        413]
+NotebookOutlinePosition[     14948,        431]
+CellTagsIndexPosition[     14905,        428]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Show", "[", 
+    RowBox[{
+     RowBox[{"Graphics", "[", 
+      RowBox[{"{", 
+       RowBox[{"Yellow", ",", 
+        RowBox[{"Opacity", "[", "0.1", "]"}], ",", 
+        RowBox[{"Rectangle", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"-", "1"}], ",", 
+            RowBox[{"-", "1"}]}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"1", ",", "6"}], "}"}]}], "]"}]}], "}"}], "]"}], ",", 
+     RowBox[{"Plot", "[", 
+      RowBox[{
+       FractionBox["1", 
+        RowBox[{"1", "-", "x"}]], ",", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", 
+         RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
+       RowBox[{"PlotStyle", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"Directive", "[", 
+          RowBox[{"Thick", ",", "Black"}], "]"}], "}"}]}], ",", 
+       RowBox[{"PlotRange", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "0.75"}], ",", "5"}], "}"}]}], ",", 
+       RowBox[{"Exclusions", "\[Rule]", 
+        RowBox[{"{", "1", "}"}]}]}], "]"}], ",", 
+     RowBox[{"Plot", "[", 
+      RowBox[{
+       RowBox[{"Evaluate", "[", 
+        RowBox[{"Normal", "[", 
+         RowBox[{"Series", "[", 
+          RowBox[{
+           FractionBox["1", 
+            RowBox[{"1", "-", "x"}]], ",", 
+           RowBox[{"{", 
+            RowBox[{"x", ",", "0", ",", "n"}], "}"}]}], "]"}], "]"}], "]"}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", 
+         RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
+       RowBox[{"PlotStyle", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"Directive", "[", 
+          RowBox[{"Thick", ",", "Red"}], "]"}], "}"}]}], ",", 
+       RowBox[{"PlotRange", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "0.75"}], ",", "5"}], "}"}]}]}], "]"}], ",", 
+     RowBox[{"PlotRange", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "0.75"}], ",", "5"}], "}"}]}], "}"}]}], ",", 
+     RowBox[{"Axes", "\[Rule]", "True"}], ",", 
+     RowBox[{"AspectRatio", "\[Rule]", "1"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"n", ",", "0"}], "}"}], ",", "0", ",", "12", ",", "1"}], 
+    "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.845080824532851*^9, 3.845081128677603*^9}, {
+  3.845081170647211*^9, 3.845081232262291*^9}, {3.8450813791980247`*^9, 
+  3.8450813796259656`*^9}, {3.845081514301694*^9, 3.845081607350444*^9}},
+ CellLabel->"In[35]:=",ExpressionUUID->"9ba0e4d6-fbab-4d24-af4d-466e4fad4ef8"],
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Show", "[", 
+    RowBox[{
+     RowBox[{"Graphics", "[", 
+      RowBox[{"{", 
+       RowBox[{"Yellow", ",", 
+        RowBox[{"Opacity", "[", "0.1", "]"}], ",", 
+        RowBox[{"Rectangle", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"-", "1"}], ",", 
+            RowBox[{"-", "1"}]}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"1", ",", "3"}], "}"}]}], "]"}]}], "}"}], "]"}], ",", 
+     RowBox[{"Plot", "[", 
+      RowBox[{
+       FractionBox["1", 
+        RowBox[{"1", "+", 
+         SuperscriptBox["x", "2"]}]], ",", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", 
+         RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
+       RowBox[{"PlotStyle", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"Directive", "[", 
+          RowBox[{"Thick", ",", "Black"}], "]"}], "}"}]}], ",", 
+       RowBox[{"PlotRange", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "0.75"}], ",", "2"}], "}"}]}]}], "]"}], ",", 
+     RowBox[{"Plot", "[", 
+      RowBox[{
+       RowBox[{"Evaluate", "[", 
+        RowBox[{"Normal", "[", 
+         RowBox[{"Series", "[", 
+          RowBox[{
+           FractionBox["1", 
+            RowBox[{"1", "+", 
+             SuperscriptBox["x", "2"]}]], ",", 
+           RowBox[{"{", 
+            RowBox[{"x", ",", "0", ",", "n"}], "}"}]}], "]"}], "]"}], "]"}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", 
+         RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
+       RowBox[{"PlotStyle", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"Directive", "[", 
+          RowBox[{"Thick", ",", "Red"}], "]"}], "}"}]}], ",", 
+       RowBox[{"PlotRange", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "0.75"}], ",", "2"}], "}"}]}]}], "]"}], ",", 
+     RowBox[{"PlotRange", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "0.75"}], ",", "2"}], "}"}]}], "}"}]}], ",", 
+     RowBox[{"Axes", "\[Rule]", "True"}], ",", 
+     RowBox[{"AspectRatio", "\[Rule]", "1"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"n", ",", "0"}], "}"}], ",", "0", ",", "24", ",", "2"}], 
+    "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.845080824532851*^9, 3.845081128677603*^9}, {
+  3.845081170647211*^9, 3.845081232262291*^9}, {3.8450813791980247`*^9, 
+  3.8450813796259656`*^9}, {3.845081514301694*^9, 3.845081607350444*^9}, {
+  3.8450827854806585`*^9, 3.8450828635786996`*^9}},
+ CellLabel->"In[41]:=",ExpressionUUID->"11e583e2-4714-4bb2-9514-1d1deb381069"],
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Show", "[", 
+    RowBox[{
+     RowBox[{"Graphics", "[", 
+      RowBox[{"{", 
+       RowBox[{"Yellow", ",", 
+        RowBox[{"Opacity", "[", "0.1", "]"}], ",", 
+        RowBox[{"Rectangle", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"-", "2"}], ",", 
+            RowBox[{"-", "2"}]}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"2", ",", "3"}], "}"}]}], "]"}]}], "}"}], "]"}], ",", 
+     RowBox[{"Plot", "[", 
+      RowBox[{
+       FractionBox["1", 
+        RowBox[{"2", "+", "x"}]], ",", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", 
+         RowBox[{"-", "3"}], ",", "3"}], "}"}], ",", 
+       RowBox[{"PlotStyle", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"Directive", "[", 
+          RowBox[{"Thick", ",", "Black"}], "]"}], "}"}]}], ",", 
+       RowBox[{"PlotRange", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "0.75"}], ",", "2"}], "}"}]}], ",", 
+       RowBox[{"Exclusions", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"-", "2"}], "}"}]}]}], "]"}], ",", 
+     RowBox[{"Plot", "[", 
+      RowBox[{
+       RowBox[{"Evaluate", "[", 
+        RowBox[{"Normal", "[", 
+         RowBox[{"Series", "[", 
+          RowBox[{
+           FractionBox["1", 
+            RowBox[{"2", "+", "x"}]], ",", 
+           RowBox[{"{", 
+            RowBox[{"x", ",", "0", ",", "n"}], "}"}]}], "]"}], "]"}], "]"}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", 
+         RowBox[{"-", "3"}], ",", "3"}], "}"}], ",", 
+       RowBox[{"PlotStyle", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"Directive", "[", 
+          RowBox[{"Thick", ",", "Red"}], "]"}], "}"}]}], ",", 
+       RowBox[{"PlotRange", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "0.75"}], ",", "2"}], "}"}]}]}], "]"}], ",", 
+     RowBox[{"PlotRange", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "3"}], ",", "3"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "0.75"}], ",", "2"}], "}"}]}], "}"}]}], ",", 
+     RowBox[{"Axes", "\[Rule]", "True"}], ",", 
+     RowBox[{"AspectRatio", "\[Rule]", "1"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"n", ",", "0"}], "}"}], ",", "0", ",", "12", ",", "1"}], 
+    "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.845080824532851*^9, 3.845081128677603*^9}, {
+  3.845081170647211*^9, 3.845081232262291*^9}, {3.8450813791980247`*^9, 
+  3.8450813796259656`*^9}, {3.845081514301694*^9, 3.845081607350444*^9}, {
+  3.8450827854806585`*^9, 3.8450828635786996`*^9}, {3.8450852975332127`*^9, 
+  3.8450853602051725`*^9}},
+ CellLabel->"In[57]:=",ExpressionUUID->"8cad666f-7d1c-4160-8d51-e4fa91a73f15"],
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Show", "[", 
+    RowBox[{
+     RowBox[{"Graphics", "[", 
+      RowBox[{"{", 
+       RowBox[{"Yellow", ",", 
+        RowBox[{"Opacity", "[", "0.1", "]"}], ",", 
+        RowBox[{"Rectangle", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"-", "2"}], ",", 
+            RowBox[{"-", "2"}]}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"2", ",", "3"}], "}"}]}], "]"}]}], "}"}], "]"}], ",", 
+     RowBox[{"Plot", "[", 
+      RowBox[{
+       FractionBox[
+        SuperscriptBox["x", "3"], 
+        RowBox[{"2", "+", "x"}]], ",", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", 
+         RowBox[{"-", "3"}], ",", "3"}], "}"}], ",", 
+       RowBox[{"PlotStyle", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"Directive", "[", 
+          RowBox[{"Thick", ",", "Black"}], "]"}], "}"}]}], ",", 
+       RowBox[{"PlotRange", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "2"}], ",", "2"}], "}"}]}], ",", 
+       RowBox[{"Exclusions", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"-", "2"}], "}"}]}]}], "]"}], ",", 
+     RowBox[{"Plot", "[", 
+      RowBox[{
+       RowBox[{"Evaluate", "[", 
+        RowBox[{"Normal", "[", 
+         RowBox[{"Series", "[", 
+          RowBox[{
+           FractionBox[
+            SuperscriptBox["x", "3"], 
+            RowBox[{"2", "+", "x"}]], ",", 
+           RowBox[{"{", 
+            RowBox[{"x", ",", "0", ",", "n"}], "}"}]}], "]"}], "]"}], "]"}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", 
+         RowBox[{"-", "3"}], ",", "3"}], "}"}], ",", 
+       RowBox[{"PlotStyle", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"Directive", "[", 
+          RowBox[{"Thick", ",", "Red"}], "]"}], "}"}]}], ",", 
+       RowBox[{"PlotRange", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "2"}], ",", "2"}], "}"}]}]}], "]"}], ",", 
+     RowBox[{"PlotRange", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "3"}], ",", "3"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "2"}], ",", "2"}], "}"}]}], "}"}]}], ",", 
+     RowBox[{"Axes", "\[Rule]", "True"}], ",", 
+     RowBox[{"AspectRatio", "\[Rule]", "1"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"n", ",", "2"}], "}"}], ",", "2", ",", "14", ",", "1"}], 
+    "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.845080824532851*^9, 3.845081128677603*^9}, {
+  3.845081170647211*^9, 3.845081232262291*^9}, {3.8450813791980247`*^9, 
+  3.8450813796259656`*^9}, {3.845081514301694*^9, 3.845081607350444*^9}, {
+  3.8450827854806585`*^9, 3.8450828635786996`*^9}, {3.8450852975332127`*^9, 
+  3.8450853602051725`*^9}, {3.8450857741433306`*^9, 3.8450858331265807`*^9}},
+ CellLabel->"In[68]:=",ExpressionUUID->"66ea9eca-83d8-474c-84eb-07cebc8eac2e"],
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Show", "[", 
+    RowBox[{
+     RowBox[{"Graphics", "[", 
+      RowBox[{"{", 
+       RowBox[{"Yellow", ",", 
+        RowBox[{"Opacity", "[", "0.1", "]"}], ",", 
+        RowBox[{"Rectangle", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"-", "1"}], ",", 
+            RowBox[{"-", "3"}]}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"1", ",", "3"}], "}"}]}], "]"}]}], "}"}], "]"}], ",", 
+     RowBox[{"Plot", "[", 
+      RowBox[{
+       RowBox[{"Log", "[", 
+        RowBox[{"1", "+", "x"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", 
+         RowBox[{"-", "1"}], ",", "3"}], "}"}], ",", 
+       RowBox[{"PlotStyle", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"Directive", "[", 
+          RowBox[{"Thick", ",", "Black"}], "]"}], "}"}]}], ",", 
+       RowBox[{"PlotRange", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "3"}], ",", "3"}], "}"}]}]}], "]"}], ",", 
+     RowBox[{"Plot", "[", 
+      RowBox[{
+       RowBox[{"Evaluate", "[", 
+        RowBox[{"Normal", "[", 
+         RowBox[{"Series", "[", 
+          RowBox[{
+           RowBox[{"Log", "[", 
+            RowBox[{"x", "+", "1"}], "]"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"x", ",", "0", ",", "n"}], "}"}]}], "]"}], "]"}], "]"}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", 
+         RowBox[{"-", "3"}], ",", "3"}], "}"}], ",", 
+       RowBox[{"PlotStyle", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"Directive", "[", 
+          RowBox[{"Thick", ",", "Red"}], "]"}], "}"}]}], ",", 
+       RowBox[{"PlotRange", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "3"}], ",", "3"}], "}"}]}]}], "]"}], ",", 
+     RowBox[{"PlotRange", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "2"}], ",", "3"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "3"}], ",", "3"}], "}"}]}], "}"}]}], ",", 
+     RowBox[{"Axes", "\[Rule]", "True"}], ",", 
+     RowBox[{"AspectRatio", "\[Rule]", "1"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"n", ",", "0"}], "}"}], ",", "0", ",", "12", ",", "1"}], 
+    "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.845080824532851*^9, 3.845081128677603*^9}, {
+  3.845081170647211*^9, 3.845081232262291*^9}, {3.8450813791980247`*^9, 
+  3.8450813796259656`*^9}, {3.845081514301694*^9, 3.845081607350444*^9}, {
+  3.845332105948866*^9, 3.8453322465888667`*^9}},
+ CellLabel->"In[11]:=",ExpressionUUID->"0a1948b7-10e0-4816-9f0e-684ef0879058"]
+},
+WindowSize->{760, 833},
+WindowMargins->{{Automatic, 346}, {90, Automatic}},
+TaggingRules->{
+ "WelcomeScreenSettings" -> {"FEStarting" -> False}, "TryRealOnly" -> False},
+FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (December 12, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"dd66f5a1-07e7-4a35-bf02-e989579b2a23"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 2699, 75, 169, "Input",ExpressionUUID->"9ba0e4d6-fbab-4d24-af4d-466e4fad4ef8"],
+Cell[3260, 97, 2736, 76, 172, "Input",ExpressionUUID->"11e583e2-4714-4bb2-9514-1d1deb381069"],
+Cell[5999, 175, 2830, 78, 169, "Input",ExpressionUUID->"8cad666f-7d1c-4160-8d51-e4fa91a73f15"],
+Cell[8832, 255, 2935, 80, 176, "Input",ExpressionUUID->"66ea9eca-83d8-474c-84eb-07cebc8eac2e"],
+Cell[11770, 337, 2677, 74, 105, "Input",ExpressionUUID->"0a1948b7-10e0-4816-9f0e-684ef0879058"]
+}
+]
+*)
+
